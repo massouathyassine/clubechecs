@@ -1,14 +1,14 @@
-# Application de tournois d'échecs
+# Application d'échecs
 
 Cette application de tournois d'échecs est une application en console pour gérer les joueurs et les tournois basée sur le système Suisse.
 
-## Prérequis
+## Installation
 
 1. Installer [Python 3](https://www.python.org/downloads/).
 
-2. Télécharger le programme via GitHub avec la commande ci-dessous ou en téléchargeant [l'archive](https://github.com/MaeRiz/OC_P4_Chess/archive/refs/heads/master.zip).
+2. Télécharger le programme via GitHub avec la commande ci-dessous ou en téléchargeant [l'archive](https://github.com/massouathyassine/clubechecs.git).
 ```bash
-git clone https://github.com/MaeRiz/OC_P4_Chess.git
+git clone https://github.com/massouathyassine/clubechecs.git
 ```
 
 3. installer les modules via la commande:
@@ -21,12 +21,7 @@ pip install -r requirements.txt
 Utiliser la commande ci-dessous pour lancer l'application.
 
 ```cmd
-py start.py
-```
-## Génération de rapport Flake8
-Utiliser la commande ci-dessous pour générer un rapport Flake8.
-```cmd
-flake8 app --format=html --htmldir=flake-report
+py main.py
 ```
 
 ## Informations
