@@ -34,3 +34,12 @@ Utiliser la commande ci-dessous pour lancer l'application.
 ```cmd
 py main.py
 ```
+## Génération de rapport Flake8
+
+Utiliser la commande ci-dessous pour générer un rapport Flake8.
+```cmd
+flake8 views models controllers --format=html --htmldir=flake-report
+
+```
+
+
