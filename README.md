@@ -6,12 +6,23 @@ Cette application de tournois d'échecs est une application en console pour gér
 
 1. Installer [Python 3](https://www.python.org/downloads/).
 
-2. Télécharger le programme via GitHub avec la commande ci-dessous ou en téléchargeant [l'archive](https://github.com/massouathyassine/clubechecs.git).
+2. Créer un enverenement virtual en utilisant la commande suivante
+
+```bash
+python3 -m venv venv
+```
+3. Activer l'enveirenement virtual en utilisant la commande suivante 
+
+```bash
+source venv/bin/activate
+```
+
+4. Télécharger le programme via GitHub avec la commande ci-dessous ou en téléchargeant [l'archive](https://github.com/massouathyassine/clubechecs.git).
 ```bash
 git clone https://github.com/massouathyassine/clubechecs.git
 ```
 
-3. installer les modules via la commande:
+5. installer les modules via la commande:
 ```cmd
 pip install -r requirements.txt
 ```
